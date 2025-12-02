@@ -1,0 +1,19 @@
+
+//#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+ 
+int main() {
+
+   long long n;
+   cin>>n;
+   long long sum=n*(n+1)/2;
+   cout<<sum;
+ 
+ 
+   
+    return 0;
+
+}
