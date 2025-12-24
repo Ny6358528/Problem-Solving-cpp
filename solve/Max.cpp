@@ -6,10 +6,9 @@ int main() {
     long long n;
     cin >> n;
 
-    long long x, mx=0;
-  
+    long long x, mx = 0;
 
-    for(int i = 1; i < n; i++){
+    for(int i = 0; i < n; i++){
         cin >> x;
         if(x > mx){
             mx = x;
