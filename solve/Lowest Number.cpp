@@ -4,13 +4,14 @@ using namespace std;
 int main() {
     long long size;
     cin >> size;
-    long long arr[size],min=arr[0],pos=1;
+    long long arr[size],pos=1;
    
     for(int i=0;i<size;i++){
         cin>>arr[i];
      
         
     }
+   long long  min=arr[0];
     for(int i=0;i<size;i++){
       if(arr[i]<min){
           min=arr[i];
